@@ -13,10 +13,10 @@ using namespace std;
 
 int num_words = 80000;	//number of words to be generated
 string GenRandomWord(int);	//generates a random string take input of how long the string will be
-void write_file();		  //opens a file and writes num_words number of randomly generated words to that file
+void WriteFile();		  //opens a file and writes num_words number of randomly generated words to that file
 
 int main() {
-  write_file();
+  WriteFile();
 }
 
  string GenRandomWord(int len) {
@@ -36,7 +36,7 @@ int main() {
   return word;
  }
 
-void write_file() {
+void WriteFile() {
   /*
   Precondition: Takes no input. Assumes GenRandomWord works correctly to generate 
     a random word of length len.
