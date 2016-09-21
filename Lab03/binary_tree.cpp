@@ -58,9 +58,10 @@ Adds a new node to the binary tree with num being the new data that is added
 
 void Tree::PrintTree() {
 /*
-Calls PrintTree to traverse through the tree
+Calls PrintTree to traverse through the tree if head is not NULL
 */
-	PrintTree(head);
+	if (head != NULL)
+		PrintTree(head);
 }
 
 void Tree::PrintTree(Node *pointer) {
