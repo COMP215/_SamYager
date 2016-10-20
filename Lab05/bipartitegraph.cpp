@@ -5,7 +5,6 @@ and v2 which has not connections with itself
 write:
 bool IsBipartite()
 that returns a true or false
-Put in folder Lab05 for Monday
 */
 
 
