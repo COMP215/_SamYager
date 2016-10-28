@@ -32,3 +32,17 @@ Type the following into a terminal window to create the desired graph:
 	dot -Tpng graph2.dot > output2.png
 
 The file named output.png will contain the original graph and the file named output2.png will contain the minimum spanning tree produced by Kruskal's algorithm
+
+
+File names: dijkstra.cpp dijkstra_main.cpp
+	Includes dijkstra.hpp
+This is a file that uses Dijkstra's algorithm to create a graph with weights attached to each node
+This program ouputs two graphs for Graphviz and uses a linked list implementation
+Type the following into a terminal window to create the desired graph:
+	g++ dijkstra.cpp dijkstra_main.cpp
+	./a.out
+	dot -Tpng graph.dot > output.png
+	dot -Tpng graph2.dot > output2.png
+
+The file named output.png will contain the original graph and the file named output2.png will contain the graph including a minimum costs to get to each node and which path was taken to get that minimum cost
+
