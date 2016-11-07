@@ -3,7 +3,6 @@ Sam Yager
 primmst.cpp
 */
 
-
 #include <iostream>
 #include <vector>
 #include <fstream>

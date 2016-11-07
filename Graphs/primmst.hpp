@@ -20,13 +20,11 @@ public:
 class LinkedListGraph {
 	Node* head_;		//head of the graph
 	Node* tail_;		//tail of the graph
-	Node* heaphead_;		//head of heap
-	Node* heaptail_;		//tail of heap
 	Node* msthead_;			//head of the minimum spanning tree graph
 	Node* msttail_;			//tail of the minimum spaning tree graph
 	int vertexcount;		//count of the number of vertices in the graph
 public:
-	LinkedListGraph() {head_ = NULL; tail_ = NULL; heaphead_ = NULL; heaptail_ = NULL; vertexcount = 0;};	//constructor
+	LinkedListGraph() {head_ = NULL; tail_ = NULL; msthead_ = NULL; msttail_ = NULL; vertexcount = 0;};	//constructor
 	bool AddVertex(string);	//adds a new point to the graph
 	bool Search(string);	//searches linked list for a given word
 	void PrintGraph(); 	//prints the graph and the mst graph
